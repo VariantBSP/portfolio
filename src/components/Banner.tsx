@@ -25,9 +25,9 @@ function Banner() {
         </p>
 
         
-        <div className="flex flex-row h-14 gap-4">
+        <div className="flex flex-row h-8 gap-4">
           <a href="https://github.com/VariantBSP/">
-          <svg role="img" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" id="Github--Streamline-Simple-Icons" height="50" width="50">
+          <svg role="img" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" id="Github--Streamline-Simple-Icons" height="29" width="29">
             <desc>
               Github Streamline Icon: https://streamlinehq.com
             </desc>
@@ -37,7 +37,7 @@ function Banner() {
           </a>
 
           <button name="paulbayo321@gmail.com" onClick={handleClick}>
-          <svg className="h-14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="gmail">
+          <svg className="h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="gmail">
             <path fill="#EAEAEA" d="M22.5 21h-21A1.5 1.5 0 0 1 0 19.5v-15A1.5 1.5 0 0 1 1.5 3h21A1.5 1.5 0 0 1 24 4.5v15a1.5 1.5 0 0 1-1.5 1.5z"></path>
             <path fill="#D54C3F" d="M3 21H1.5A1.5 1.5 0 0 1 0 19.5v-15a1.5 1.5 0 0 1 3 0V21z"></path>
             <path fill="#B63524" d="M21 21h1.5a1.5 1.5 0 0 0 1.5-1.5v-15a1.5 1.5 0 0 0-3 0V21z"></path>
@@ -63,7 +63,7 @@ function Banner() {
           </button>
 
           <a href="https://www.linkedin.com/in/bayo-seye-paul/">
-          <svg className="h-14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="linked">
+          <svg className="h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="linked">
             <g id="Style_2_copy_2">
               <path fill="#FFF" d="M16 31.25C7.591 31.25.75 24.409.75 16S7.591.75 16 .75 31.25 7.591 31.25 16 24.409 31.25 16 31.25z"></path>
               <path fill="#E8E8E8" d="M16 1.5c7.995 0 14.5 6.505 14.5 14.5S23.995 30.5 16 30.5 1.5 23.995 1.5 16 8.005 1.5 16 1.5M16 0C7.163 0 0 7.163 0 16c0 8.836 7.163 16 16 16s16-7.164 16-16c0-8.837-7.163-16-16-16z"></path>
