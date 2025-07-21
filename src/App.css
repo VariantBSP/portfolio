@@ -1,0 +1,158 @@
+h1{
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+h2{
+  font-size: large;
+  font-weight: bold;
+  color: #1761b0;
+}
+
+h3{
+  font-size: medium;
+  font-weight: bold;
+}
+
+.bgVideo{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+  z-index:-1;
+  object-fit:cover;
+}
+
+.body{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: "Sacramento", sans-serif;
+}
+
+.imgBox{ 
+  margin: 0px 18px;
+  animation: pulsate 1.5s infinite alternate;  
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.1em;
+  box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #1761b0,
+            0 0 0.8rem #1761b0,
+            0 0 2.8rem #1761b0,
+            inset 0 0 1.3rem #1761b0;
+}
+
+.imgBox img{
+  max-width: 100%;
+  height: auto;
+  min-height: 300px;
+  min-width: 170px;
+}
+
+.container{
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 10px;
+}
+
+.grid-container{
+  color: #fff;
+  padding: 10px;
+  display: grid;
+  grid: 100% / auto auto auto;
+  gap: 10px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+  padding: 20px 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.card a{
+  color:#1761b0;
+  font-weight: bold;
+}
+
+.card:hover{
+  background-color: #0d356096;
+}
+
+.box{
+  display: flex ;
+  align-items: center;
+  gap: 10px;
+}
+
+.box img{
+  width: 35px;
+  height: 35px;
+}
+
+.box h3:hover{
+  border-bottom: 2px solid #fff;
+}
+
+.btn{
+  background-color: #1761b0;
+  margin-top: 10px;
+  padding: 7px 14px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.08cm;
+}
+
+.btn:hover{
+  background-color: #0d3560;
+  cursor: pointer;
+}
+
+@keyframes pulsate {
+    
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #1761b0,
+      0 0 80px #1761b0,
+      0 0 90px #1761b0,
+      0 0 100px #1761b0,
+      0 0 150px #1761b0;
+  
+  }
+  
+  0% {
+
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #1761b0,
+    0 0 45px #1761b0,
+    0 0 55px #1761b0,
+    0 0 70px #1761b0,
+    0 0 80px #1761b0;
+
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container{
+    grid-template: 100% / auto auto;
+  }
+}
+
