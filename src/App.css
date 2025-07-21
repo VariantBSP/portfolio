@@ -67,8 +67,9 @@ h3{
   color: #fff;
   padding: 10px;
   display: grid;
-  grid: 100% / auto auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 10px;
+  height: auto;
   margin-bottom: 15px;
 }
 
@@ -153,7 +154,17 @@ h3{
 
 @media only screen and (max-width: 600px) {
   .grid-container{
-    grid-template: 100% / auto auto;
+  color: #fff;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
   }
+
+  .imgBox img{
+  max-width: 75%;
+  height: auto;
+  min-height: 225px;
+  min-width: 125px;
+}
 }
 
