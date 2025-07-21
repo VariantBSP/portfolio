@@ -69,6 +69,7 @@ h3{
   display: grid;
   grid: 100% / auto auto auto;
   gap: 10px;
+  margin-bottom: 15px;
 }
 
 .card{
