@@ -69,6 +69,7 @@ h3{
   display: grid;
   grid: 100% / auto auto auto;
   gap: 10px;
+  height: auto;
   margin-bottom: 15px;
 }
 
@@ -157,10 +158,10 @@ h3{
   }
 
   .imgBox img{
-  max-width: 80%;
+  max-width: 75%;
   height: auto;
-  min-height: 250px;
-  min-width: 140px;
+  min-height: 225px;
+  min-width: 125px;
 }
 }
 
