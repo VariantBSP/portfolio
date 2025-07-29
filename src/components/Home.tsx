@@ -21,8 +21,23 @@ function Home() {
               iconAlt="lenry-icon"
             />
           </a>
-          
-          <a href="https://bsp-todo.vercel.app/">
+
+
+          <a href="https://expenses-chart-component-ruddy.vercel.app/">
+            <div className="card">
+              <div className="box">
+                <img src="/images/reactIcon.png" alt="foodie-icon" />
+              <h3>
+                Expenses Chart Page <span> &#x1F517;</span>
+              </h3>
+              </div>
+              <p>
+                A visually intuitive expense tracker that renders dynamic charts to track user spending. Built based on challenge from <a href="frontendmentor.io">frontendmentor.io</a>.
+              </p>
+            </div>
+          </a>
+
+          <a href="https://redux-todo-list-inky.vercel.app/">
             <Card 
               title="Todo App" 
               content="A simple task-tracking web app built with TypeScript and Tailwind CSS."
@@ -45,19 +60,6 @@ function Home() {
             </div>
           </a>
 
-          <a href="https://expenses-chart-component-ruddy.vercel.app/">
-            <div className="card">
-              <div className="box">
-                <img src="/images/reactIcon.png" alt="foodie-icon" />
-              <h3>
-                Expenses Chart Page <span> &#x1F517;</span>
-              </h3>
-              </div>
-              <p>
-                A visually intuitive expense tracker that renders dynamic charts to track user spending. Built based on challenge from <a href="frontendmentor.io">frontendmentor.io</a>.
-              </p>
-            </div>
-          </a>
 
           <a href="https://foodie-app-myfk.vercel.app/">
             <div className="card">
