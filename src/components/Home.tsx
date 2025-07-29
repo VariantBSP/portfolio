@@ -16,7 +16,7 @@ function Home() {
           <a href="https://v2lenry.vercel.app/">
             <Card 
               title="Lenry Hotel & Suite" 
-              content="Developed the hotel&#39;s promotional website using TypeScript and Tailwind CSS while still learning core web design principles. Implemented a responsive layout showcasing rooms, amenities, and contact information."
+              content="Developed the hotel&#39;s promotional website using TypeScript and Tailwind CSS."
               iconLink="/logo.png" 
               iconAlt="lenry-icon"
             />
@@ -25,7 +25,7 @@ function Home() {
           <a href="https://bsp-todo.vercel.app/">
             <Card 
               title="Todo App" 
-              content="A simple task-tracking web app built with TypeScript and Tailwind CSS. Includes add, delete, and mark-as-complete functionality. Used firebase to store tasks"
+              content="A simple task-tracking web app built with TypeScript and Tailwind CSS."
               iconLink="/images/checkIcon.png" 
               iconAlt="task-icon"
             />
@@ -40,7 +40,7 @@ function Home() {
               </h3>
               </div>
               <p>
-                A modern, responsive landing page designed with an array of CSS tools. This project demonstrates mobile-first design, clean layout structuring, and semantic HTML for improved accessibility.
+                A modern, responsive landing page designed with an array of CSS tools.
               </p>
             </div>
           </a>
@@ -54,7 +54,7 @@ function Home() {
               </h3>
               </div>
               <p>
-                A visually intuitive expense tracker that renders dynamic charts to track user spending. Built based on challenge from <a href="frontendmentor.io">frontendmentor.io</a>. Developed to prcatice React and CSS.
+                A visually intuitive expense tracker that renders dynamic charts to track user spending. Built based on challenge from <a href="frontendmentor.io">frontendmentor.io</a>.
               </p>
             </div>
           </a>
@@ -68,7 +68,7 @@ function Home() {
                 </h3>
               </div>
               <p>
-                A food discovery platform developed to explore Create, Read, Update and Delete (CRUD) web app functionality.  Users can browse food items, view details, and interact with a responsive UI designed using React and Firebase/FireStore
+                A food discovery platform developed to explore Create, Read, Update and Delete (CRUD) web app functionality.
               </p>
             </div>
           </a>
