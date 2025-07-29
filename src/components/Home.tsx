@@ -39,7 +39,7 @@ function Home() {
 
           <a href="https://redux-todo-list-inky.vercel.app/">
             <Card 
-              title="Todo App" 
+              title="Redux Todo-List App" 
               content="A simple task-tracking web app built with React and Redux."
               iconLink="/images/checkIcon.png" 
               iconAlt="task-icon"
