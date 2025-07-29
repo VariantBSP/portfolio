@@ -20,8 +20,12 @@ function Banner() {
           Web Developer
         </h1>
 
+        <h2>
+           React | JavaScript | Tailwind CSS | TypeScript | Flutter
+        </h2>
+
         <p className="w-5/6 my-2">
-          My name is Bayo Seye Paul and i am a front-end developer with skills in Javascript, React and Flutter
+          My name is Bayo Seye Paul and i am a front-end developer.
         </p>
 
         

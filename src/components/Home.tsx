@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import Card from "./Card";
 
 function Home() {
 
@@ -7,34 +8,27 @@ function Home() {
       <div className="body">
         <Banner />
 
+        <h1 className="self-start mt-10 ml-2 text-white">
+            Projects
+        </h1>
         <div className="grid-container">
 
           <a href="https://v2lenry.vercel.app/">
-            <div className="card">
-              <div className="box">
-                <img className="bg-white rounded-full" src="/logo.png" alt="foodie-icon" />
-              <h3>
-                Lenry Hotel & Suite
-              </h3>
-              </div>
-              <p>
-                This was a site developed while learning HTMl and CSS
-              </p>
-            </div>
+            <Card 
+              title="Lenry Hotel & Suite" 
+              content="Developed the hotel&#39;s promotional website using TypeScript and Tailwind CSS while still learning core web design principles. Implemented a responsive layout showcasing rooms, amenities, and contact information."
+              iconLink="/logo.png" 
+              iconAlt="lenry-icon"
+            />
           </a>
-
+          
           <a href="https://bsp-todo.vercel.app/">
-            <div className="card">
-              <div className="box">
-                <img src="/images/checkIcon.png" alt="foodie-icon" />
-              <h3>
-                Todo App
-              </h3>
-              </div>
-              <p>
-                This was a site developed with Typescript and Tailwind CSS
-              </p>
-            </div>
+            <Card 
+              title="Todo App" 
+              content="A simple task-tracking web app built with TypeScript and Tailwind CSS. Includes add, delete, and mark-as-complete functionality. Used firebase to store tasks"
+              iconLink="/images/checkIcon.png" 
+              iconAlt="task-icon"
+            />
           </a>
 
           <a href="https://sunnyside-agency-landingpage-xi.vercel.app/">
@@ -42,11 +36,11 @@ function Home() {
               <div className="box">
                 <img src="/images/reactIcon.png" alt="foodie-icon" />
               <h3>
-                Sunnyside Landing Page
+                Sunnyside Landing Page <span> &#x1F517;</span>
               </h3>
               </div>
               <p>
-                This was a site developed with Typescript and Tailwind CSS
+                A modern, responsive landing page designed with an array of CSS tools. This project demonstrates mobile-first design, clean layout structuring, and semantic HTML for improved accessibility.
               </p>
             </div>
           </a>
@@ -56,11 +50,11 @@ function Home() {
               <div className="box">
                 <img src="/images/reactIcon.png" alt="foodie-icon" />
               <h3>
-                Expenses Chart Page
+                Expenses Chart Page <span> &#x1F517;</span>
               </h3>
               </div>
               <p>
-                This was a site developed with Typescript and Tailwind CSS
+                A visually intuitive expense tracker that renders dynamic charts to track user spending. Built based on challenge from <a href="frontendmentor.io">frontendmentor.io</a>. Developed to prcatice React and CSS.
               </p>
             </div>
           </a>
@@ -70,11 +64,11 @@ function Home() {
               <div className="box">
                 <img src="/images/foodieIcon.png" alt="foodie-icon" />
                 <h3>
-                  Foodie
+                  Foodie <span> &#x1F517;</span>
                 </h3>
               </div>
               <p>
-                This was a site developed with Typescript and Tailwind CSS
+                A food discovery platform developed to explore Create, Read, Update and Delete (CRUD) web app functionality.  Users can browse food items, view details, and interact with a responsive UI designed using React and Firebase/FireStore
               </p>
             </div>
           </a>
@@ -86,7 +80,7 @@ function Home() {
             About Me
           </h1>
           <p>
-            Creative and detail-oriented Front-End Developer with a strong foundation in web development technologies. Proficient in HTML, CSS, JavaScript, and React, with a growing interest in user-centered design and responsive interfaces. Eager to contribute to building intuitive and efficient web applications.
+            Creative and detail-oriented Front-End Developer with a strong foundation in Web Development Technologies. Proficient in HTML, CSS, JavaScript, and React, with a growing interest in user-centered design and responsive interfaces. Eager to contribute to building intuitive and efficient web applications.
           </p>
         </div>
 
@@ -96,21 +90,21 @@ function Home() {
           </h1>
 
           <div className="card">
-            <h2>Maybeach Technologies Intern</h2>
+            <h2>Maybeach Technologies - Intern</h2>
             <i>June - August 2021</i>
-            <p>3 months internship learning the basics in web development using HTML, CSS, Javascript and J-Query</p>
+            <p>Completed a 3-month internship focused on foundational web development. Gained hands-on experience building static web pages using HTML, CSS, JavaScript, and jQuery. Learned the fundamentals of responsive design and collaborated in pair-programming tasks.</p>
           </div>
 
           <div className="card">
-            <h2>FlexiSaf Intern</h2>
-            <i>Feb - August 2022</i>
-            <p>6 months internship learning and working in teams to develop React Web apps</p>
+            <h2>FlexiSaf - Front-End Intern</h2>
+            <i>February - August 2022</i>
+            <p>Engaged in a 6-month intensive internship centered on front-end development using React.js. Worked collaboratively in agile teams to build responsive web applications. Improved proficiency in reusable component design, API integration, and Git-based version control.</p>
           </div>
 
           <div className="card">
-            <h2>Lenry Hotel and Suites</h2>
+            <h2>Lenry Hotel & Suites - Web Developer</h2>
             <i>Septmber - November 2023</i>
-            <p>Developed and Managed the hotels site</p>
+            <p>Designed and managed the official website for Lenry Hotel & Suites. Responsible for the complete front-end implementation using HTML and CSS, ensuring a clean and responsive user interface. Gained real-world experience in deploying and maintaining a live business site.</p>
           </div>
 
         </div>
