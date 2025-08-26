@@ -66,7 +66,7 @@ function Banner() {
           />
           </button>
 
-          <a href="https://www.linkedin.com/in/bayo-seye-paul/">
+          <a href="https://www.linkedin.com/in/paul-bayo-3b7a39208?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
           <svg className="h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="linked">
             <g id="Style_2_copy_2">
               <path fill="#FFF" d="M16 31.25C7.591 31.25.75 24.409.75 16S7.591.75 16 .75 31.25 7.591 31.25 16 24.409 31.25 16 31.25z"></path>
@@ -86,5 +86,6 @@ function Banner() {
     </div>
   );
 }
+
 
 export default Banner;
